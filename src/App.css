@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+.App {
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Menu ,
+.Ques,
+.EndScreen{
+  width: 80%;
+  height: 600px;
+  max-width: 600px;
+  border-radius: 2rem;
+  background-color: rgb(146, 172, 242, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App h1{
+  color: darkblue;
+  font-size: 40px;
+}
+
+.Ques h2{
+  color: darkblue;
+  padding: 15px;
+}
+.Ques button
+{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: darkblue;
+}
+.Ques button:hover{
+  background-color: blue;
+  color: white;
+}
+.Options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;  
+  color: darkblue;
+}
+.Loading{
+  color: rgb(102, 102, 199);
+  font-size: 30px;
+  align-items: center;
+}
+.Score{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.footerScore{
+  color: rgb(0, 0,0, 0.7);
+}
